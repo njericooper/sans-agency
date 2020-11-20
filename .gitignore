@@ -66,4 +66,4 @@ node_modules/
 .env
 
 #hide Zoho Verification
-zohoverify/
+.zohoverify/
