@@ -1,6 +1,6 @@
-body {
+body, html {
     width: 100%;
-    height: 100;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -13,17 +13,17 @@ body {
 }
 
 .logo {
-    max-width: 50%;
-    height: auto;
-    margin: 0;
+    size: 5em;
 }
 
 .container{
     text-align: center;
+    margin-bottom: 5rem;
 }
 
+
 .apply-form {
-    height: 70vh;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,5 +45,21 @@ button {
     background-color: white;
     align-self: center;
     margin-top: 1rem;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    background: #222491;
+    font-size: 1rem;
+    color: #FAC7F8;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: .5rem 0 .8rem 0;
+    z-index: 3;
     text-align: center;
 }

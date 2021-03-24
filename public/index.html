@@ -9,15 +9,32 @@
     <script defer src="/__/firebase/8.1.1/firebase-analytics.js"></script>
     <script defer src="/__/firebase/8.1.1/firebase-performance.js"></script>
     <script src="scripts/date.js"></script>
+    <script src="scripts/footer-links.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="/styles/theme.css">
+    <link rel="stylesheet" href="/styles/style.css">
   </head>
   <body>
-    <h1 class="title">Source & Stardust</h1>
+    <nav class="nav-container">
+      <p>Transaction currency: USD </p>
+      <ul class="nav-items">
+
+          <li><a href="https://sourceandstardust.agency/about" class="menu-link">About</a></li>
+
+          <li><a href="https://sourceandstardust.agency/apply" class="menu-link">Contact Us</a></li>
+      </ul>
+
+      <h1 class="title">Source & Stardust</h1>
+  </nav>
+    
+<section class="main">
+  <p class="main-text">Source and Stardust Agency is the brainchild of a web developer + graphic designer + SEO beast that never fit into the box.We're proud to say that we are professionals at pushing the envelope of what makes sense. We provide elegant and bespoke web pages that are powered by state of the art serverless software and the sturdiest frameworks. Your website will never be down. Ever. It will look great on mobile. Always. We could talk aobut our digital services or the decade of experience we have all day. If you'd like to learn more, fill out the form to hear from us directly. We'd love to help your business.</p>
+</section>
+
     <div class="wrapper">
       <div class="container">
-        <p>Source and Stardust Agency is the brainchild of a web developer + graphic designer + SEO beast that never fit into the box.We're proud to say that we are professionals at pushing the envelope of what makes sense. We provide elegant and bespoke web pages that are powered by state of the art serverless software and the sturdiest frameworks. Your website will never be down. Ever. It will look great on mobile. Always. We could talk aobut our digital services or the decade of experience we have all day. If you'd like to learn more, fill out the form to hear from us directly. We'd love to help your business.</p>
+       
         <header>Stay In Touch?</header>
         <!--If you're borrowing this code, change the action tag to your own url or your users will be subscribing to me. Thanks, Coop-->
         <form action="https://formsubmit.co/873878fd736c02e556076ae72e36ce49" method="POST">
@@ -32,8 +49,17 @@
         </form>
       </div>
     </div>
-    <footer class="footer" onload="setDate()"> 
-        <p id="footerText" class="footerText"></p>
-      </footer>      
+    <footer class="footer" onload="setDate()" class="footerText"> 
+      <p id="footerText"></p>
+  <br>
+      <p id="privacy"></p>
+      <br>
+      email: hello@sourceandstardust.agency
+      <br> phone number: (248) 654-8999 or speak with Njeri directly at (248) 654-8985
+      <br>
+      address: 28475 Greenfield Road
+      Suite 113 PMB 1011
+      Southfield MI 48076
+    </footer>      
   </body>
 </html>

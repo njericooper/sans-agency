@@ -67,3 +67,5 @@ node_modules/
 
 #hide Zoho Verification
 public/zohoverify/
+.fake
+.ionide

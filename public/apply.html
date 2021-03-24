@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/apply.css">
+    <link rel="stylesheet" href="styles/apply.css">
     <title>Work With Source and Stardust Agency</title>
     <meta name="description" content="Source and Stardust Agency is the brainchild of a web developer + graphic designer + SEO beast that never fit into the box.We're proud to say that we are professionals at pushing the envelope of what makes sense. We provide elegant and bespoke web pages that are powered by state of the art serverless software and the sturdiest frameworks. Your website will never be down. Ever. We could talk aobut our digital services all day so visit our website and fill out the form to hear from us directly. We'd love to help your business.">
     <meta name="keywords" content="Frontend JavaScript Product Developer HTML CSS Web Developer Marketing SEO Graphic Design Logo Design">
     <meta name="author" content="Njeri Cooper">
+    <script src="scripts/date.js"></script>
+    <script src="scripts/footer-links.js"></script>
 </head>
 <body>
     <header class="heading">
+        <p>Transaction currency: USD </p>
         <img class="logo" src="https://ucarecdn.com/5d5ec73a-f5b5-4011-95e8-acb75762d573/Logo_Final.png" alt="Source and Stardust logo">
         <h2>Free Strategy Session</h2>
         <h3>Let's see what we can create together!</h3>
@@ -19,33 +22,48 @@
         <h3>We're excited to help you build an efficient and beautiful brand!</h3>
         <h4>Please fill this out</h4>
     </div>
-    
-    <div class="apply-form">
-        <form action="/public/thank-you.html" class="form">
-            <label for=""> Name</label>
-            <input type="text" name="name" id="">
-            <label for="">Email:</label>
-            <input type="text" name="email" id="">
-            <label for="">Business Name</label>
-            <input type="text" name="business name" id="">
-            <label for="">Phone Number</label>
-            <input type="tel" name="Phone Number" id="">
-            <label for="">What's the best time to call you?</label>
-            <input type="time" name="What's the best time to call you?" id="time">
-            <label for="">Business Website</label>
-            <input type="text" name="Business Website" id="">
-            <p>Are you interested in creating marketing campaigns or a beautiful website?</p>
-            <label for="">Marketing Campaigns</label>
-            <input type="radio" name="Marketing Campaigns" id="">
-            <label for="Beautiful Websites">Beautiful Websites</label>
-            <input type="radio" name="Beautiful Websites">
-            <label for="">How old is your business?</label>
-            <input type="text" name="How old is your business?" id="">
-            <p>When would you like to start turning targeted views into paying, raving customers?</p>
-            <input type="text" name="When would you like to start turning targeted views into paying, raving customers?" id="">
-            <button class="button">Submit</button>
-        </form>
+    <section> 
+        <div class="apply-form">
+            <form action="/public/thank-you.html" class="form">
+                <label for=""> Name</label>
+                <input type="text" name="name" id="">
+                <label for="">Email:</label>
+                <input type="text" name="email" id="">
+                <label for="">Business Name</label>
+                <input type="text" name="business name" id="">
+                <label for="">Phone Number</label>
+                <input type="tel" name="Phone Number" id="">
+                <label for="">What's the best time to call you?</label>
+                <input type="time" name="What's the best time to call you?" id="time">
+                <label for="">Business Website</label>
+                <input type="text" name="Business Website" id="">
+                <p>Are you interested in creating marketing campaigns or a beautiful website?</p>
+                <label for="">Marketing Campaigns</label>
+                <input type="radio" name="Marketing Campaigns" id="">
+                <label for="Beautiful Websites">Beautiful Websites</label>
+                <input type="radio" name="Beautiful Websites">
+                <label for="">How old is your business?</label>
+                <input type="text" name="How old is your business?" id="">
+                <p>When would you like to start turning targeted views into paying, raving customers?</p>
+                <input type="text" name="When would you like to start turning targeted views into paying, raving customers?" id="">
+                <button class="button">Submit</button>
+            </form>
+        </div>
     </div>
-</div>
+
+    </section>
+    
+<footer class="footer" onload="setDate()" class="footerText"> 
+    <p id="footerText"></p>
+<br>
+    <p id="privacy"></p>
+    <br>
+    email: hello@sourceandstardust.agency
+    <br> phone number: (248) 654-8999 or speak with Njeri directly at (248) 654-8985
+    <br>
+    address: 28475 Greenfield Road
+    Suite 113 PMB 1011
+    Southfield MI 48076
+  </footer>  
 </body>
 </html>
