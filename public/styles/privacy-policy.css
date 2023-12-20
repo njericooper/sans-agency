@@ -1,0 +1,8 @@
+.privacy-wrapper {
+    margin: 2em 5em;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+}
