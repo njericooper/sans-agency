@@ -64,3 +64,8 @@ footer {
     z-index: 3;
     text-align: center;
 }
+
+#privacy {
+    color: white;
+    background-color:tomato;
+}
