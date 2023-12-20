@@ -13,7 +13,8 @@ body, html {
 }
 
 .logo {
-    size: 5em;
+    size: 5rem;
+    max-width: 200px;
 }
 
 .container{
