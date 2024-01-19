@@ -48,7 +48,7 @@ button {
     text-align: center;
 }
 
-footer {
+.footer {
     display: flex;
     flex-flow: row wrap;
     position: absolute;
@@ -63,8 +63,21 @@ footer {
     z-index: 3;
     text-align: center;
 }
+section{
+    width: 80vw;
+    max-width: 1025px;
+    padding: 0 10%;
+}
 
 #privacy {
     color: white;
     background-color:tomato;
+}
+
+.disclaimer-header, .disclaimer-text {
+    text-align: center;
+}
+
+.disclaimer-text > a {
+    color: white;
 }
