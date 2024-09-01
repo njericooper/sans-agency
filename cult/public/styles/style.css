@@ -1,0 +1,55 @@
+html, body{
+    font-family: "Aladin", system-ui;
+}
+
+.chicle-regular {
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.paprika-regular {
+    font-family: "Paprika", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.smythe-regular {
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.modak-regular {
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lemon-regular {
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aladin-regular {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-image{
+    width: 20px;
+}
+
+.text-logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section{
+    background: burlywood;
+}
+.main-text{
+    font-family: "Lemon", serif;
+}  
