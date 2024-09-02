@@ -38,13 +38,37 @@ html, body{
     font-style: normal;
 }
 
-.logo-image{
-    width: 20px;
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .text-logo{
     display: flex;
     flex-direction: row;
+}
+
+.logo-image{
+    width: 50px;
+    height: auto;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+}
+
+
+.nav-items{
+    justify-self: right;
+    justify-content: flex-end;
+
 }
 
 .main-section{
@@ -53,3 +77,5 @@ html, body{
 .main-text{
     font-family: "Lemon", serif;
 }  
+
+
