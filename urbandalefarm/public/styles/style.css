@@ -1,3 +1,46 @@
-nav {
-    background-color: #e3f2fd !important;
+.navbar {
+    background-color: #e3f2fd;
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2234006/pexels-photo-2234006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    min-height: 15em;
+    height: 50%;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+      
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero-header{
+    align-self: center;
+    font-size:8vw;
+}
+
+.sec-2{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-header{
+        font-size: 8rem;
+    }
+
 }
