@@ -23,7 +23,7 @@
 
 .hero-header{
     align-self: center;
-    font-size:8vw;
+    font-size:5vw !important;
 }
 
 .sec-2{
@@ -33,15 +33,78 @@
     padding: 3em 5em;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+.img-words{
+    margin-bottom: 35px;
+    background-color: #eee;
+    border-radius: 35px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 18px !important;
+}
+
+.img-words h2 {
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: #008425;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
 
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1200px) {
+.farm-image{
+    height: 100%;
+    width: 100%;
+}
+
+.first-sec{
+    max-width: 600px;
+    display: grid;
+    grid-gap: 55px;
+    gap: 55px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-template-columns: 555px 1fr;
+    margin-bottom: 70px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 120%;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 1200px) {
     .hero-header{
-        font-size: 8rem;
+        font-size: 8vw!important;
     }
 
+   .img-words {
+        max-width: 550px;
+        margin-bottom: 0;
+    }
+    .first-sec{
+        width: 100%;
+        max-width: 960px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+  .first-sec .first-sec-content p {
+        max-width: 460px;
+        line-height: 25px;
+        font-size: 20px;
+    }
 }
